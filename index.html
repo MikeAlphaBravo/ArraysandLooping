@@ -2,16 +2,43 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script
     src="https://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script type="text/javascript" src="js/scripts.js"></script>
-    <title>Practice Project</title>
     <title>-Ping-Pong-</title>
   </head>
   <body>
-    
+    <div class="container">
+      <div class="jumbotron">
+        Who's up for some Pong!?
+        <!-- Insert image here -->
+      </div>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="inputNumber">Enter a number</label>
+            <input id="inputNumber" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Let's play!</button>
+        </form>
+      </div>
+      <div id="results">
+        <div class="well" id="answer">
+          <ul id="unorderedList">
+          </ul>
+        </div>
+        <div class="showAnswers">
+          <p>Ping Pong can count up from 1 to the number you input, but it's going to have a little fun along the way...</p>
+          <ul>
+            <li>Numbers divisible by 3 are replaced with "ping"</li>
+            <li>Numbers divisible by 5 are replaced with "pong"</li>
+            <li>Numbers divisible by 15 are replaced with "ping pong"</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
