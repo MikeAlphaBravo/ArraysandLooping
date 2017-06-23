@@ -1,21 +1,27 @@
 .jumbotron {
-  width: 90%;
-  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
   margin-top: 5%;
-  background: rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, ff)
 }
 
-#blanks {
-  padding: 40px;
+.form-control {
+  width: 150px;
 }
 
-.form-group {
-  width: 30%;
-}
-
-#showAnswers {
+#results {
   display: none;
   width: 80%;
   margin-top: 2%;
+  margin-left: 100px;
+}
+
+form {
+  width: 200px;
+}
+
+.row {
+  margin-right: 20px;
   margin-left: 20px;
 }

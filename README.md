@@ -1,21 +1,19 @@
-# _{PingponG}_
+# _PingponG_
 
-#### _{Arrays & Looping project for Epicodus}, {June 24, 2017}_
+#### _Arrays & Looping project for Epicodus, June 24, 2017_
 
-#### By _**{Michael A. Brooks
-  *and the countless generous soulds who've looked at my work and helped along the way}**_
+#### By _**Michael A. Brooks
+  *and the countless generous souls who've looked at my work and helped along the way**_
 
 ## Description
 
-_{This web game is a simple input -> return loop.  The user inputs a number and PingponG returns a count of number up to the number the user input.  However, it replaces every divisible of 3, 5 and 15 with ping, pong or pingpong. }_
+_My Website has been written for personal purposes only and is not for profit. Use of simple HTML, CSS, Bootstrap, JQuery and Javascript have been used to create a web game with simple input -> return loop.  The user inputs a number and PingponG returns a count of number up to the number the user input.  However, it replaces every divisible of 3, 5 and 15 with ping, pong or pingpong._
 
-## Setup/Installation Requirements
+## Just follow this link to view website or developer's info
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+https://github.com/MikeAlphaBravo/ArraysandLooping
+
+Bootstrap and JQuery codes are included in the file structure and refered to in the HTML but make sure latest versions are in place.
 
 ## Specifications
 
@@ -35,22 +33,23 @@ _{This web game is a simple input -> return loop.  The user inputs a number and 
   * Example Input: 0 or less than 0
   * Example Output: error message indicating to enter a positive number
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_This code does not deal with high value inputs, am still working out a way around this.  Please submit a request if you have any input._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you find any bugs or problems with the website please don't hesitate to let me know in the contacts link or here at MikeAlphaBravo1982@gmail.com._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+  * Github.com
+  * HTML, CSS, Javascript in Atom
+  * Bootstrap via link
+  * JQuery via link
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+_This software is licensed under the MIT license._
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2017 _**Michael Allen Brooks**_

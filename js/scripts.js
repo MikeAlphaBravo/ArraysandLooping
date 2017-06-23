@@ -25,7 +25,7 @@ $(document).ready(function() {
     } else if (userInput <= 0) {
       alert("Enter a number higher than 0!");
     } else {
-      $("#results").show("slow");
+      $("#results").show();
     };
     conditional(userInput);
     event.preventDefault();
