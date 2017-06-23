@@ -1,13 +1,13 @@
-# _{Pingpon}_
+# _{PingponG}_
 
-#### _{Brief description of application}, {June 24, 2017}_
+#### _{Arrays & Looping project for Epicodus}, {June 24, 2017}_
 
 #### By _**{Michael A. Brooks
   *and the countless generous soulds who've looked at my work and helped along the way}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{This web game is a simple input -> return loop.  The user inputs a number and PingponG returns a count of number up to the number the user input.  However, it replaces every divisible of 3, 5 and 15 with ping, pong or pingpong. }_
 
 ## Setup/Installation Requirements
 
@@ -16,6 +16,24 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _in a simple_
 * _easy-to-understand_
 * _format_
+
+## Specifications
+
+* It can count up to the user input number
+  * Example Input: 2
+  * Example Output: [1,2]
+  * Example Input: 3
+  * Example Output: [1,2,ping]
+  * Example Input: 4
+  * Example Output: [1,2,ping,4]
+  * Example Input: 5
+  * Example Output: [1,2,ping,4,pong]...
+  * Example Input: 15
+  * Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,ping,PINGPONG!]
+  * Example Input: NaN
+  * Example Output: error message indicating to input a number
+  * Example Input: 0 or less than 0
+  * Example Output: error message indicating to enter a positive number
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
