@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <title>-Ping-ponG-</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        Who's up for some Pong!?
-        <!-- Insert image here -->
-      </div>
-      <div class="row">
-        <div class="col-sm-1">
-          <!-- blank -->
-        </div>
-        <div class="col-sm-2">
-          <div id="blanks">
-            <form>
-              <div class="form-group">
-                <label for="inputNumber">Enter a number</label>
-                <input id="inputNumber" class="form-control" type="text">
-              </div>
-              <button type="submit" class="btn">Let's play!</button>
-            </form>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>-Ping-ponG-</title>
+</head>
+
+<body class="background">
+  <div class="container">
+    <div class="jumbotron">
+      Who's up for some <strong>PingponG</strong>!?
+      <!-- Insert image here -->
+    </div>
+    <div class="row">
+      <div class=panel panel-default "">
+        <div class="panel-body">
+          <div class="col-sm-1">
+            <!-- blank -->
+          </div>
+          <div class="col-sm-2">
+            <div id="blanks">
+              <form>
+                <div class="form-group">
+                  <label for="inputNumber">Enter a number</label>
+                  <input id="inputNumber" class="form-control" type="text">
+                </div>
+                <button type="submit" class="btn">Let's play!</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <!-- blank -->
+          </div>
+          <div class="col-sm-7">
+            <div class="list">
+              <dl>
+                <h4>Rules:</h4>
+                <dl>PingponG can count from 1 to your input number BUT it's going to have a little fun along the way...</dl>
+                <dd>Numbers divisible by 3 are replaced with "ping"</dd>
+                <dd>Numbers divisible by 5 are replaced with "pong"</dd>
+                <dd>Numbers divisible by 15 are replaced with "ping pong"</dd>
+              </dl>
+            </div>
           </div>
         </div>
-        <div class="col-sm-2">
-          <!-- blank -->
-        </div>
-        <div class="col-sm-7">
-          <div class="list">
-            <p>Ping Pong can count up from 1 to the number you input</p>
-            <p>BUT it's going to have a little fun along the way...</p>
-            <ul>
-              <li>Numbers divisible by 3 are replaced with "ping"</li>
-              <li>Numbers divisible by 5 are replaced with "pong"</li>
-              <li>Numbers divisible by 15 are replaced with "ping pong"</li>
-            </ul>
-          </div>
-        </div>
       </div>
-      <div id="results">
+    </div>
+    <div id="results">
+      <div class=panel panel-default "">
         <div class="list" id="answer">
-          <ul id="unorderedList">
+          <ul id="unorderedList" class="list-inline">
           </ul>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <p id="right"><a href="mailto:mikealphabravo@gmail.com">Contact the developer</a></p>
+      <p id="left"><a href="mailto:mikealphabravo@gmail.com">Feedback</a></p>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
