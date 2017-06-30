@@ -11,7 +11,7 @@ _My Website has been written for personal purposes only and is not for profit. U
 
 ## Just follow this link to view website or developer's info
 
-https://github.com/MikeAlphaBravo/ArraysandLooping
+https://mikealphabravo.github.io/ArraysandLooping/
 
 Bootstrap and JQuery codes are included in the file structure and refered to in the HTML but make sure latest versions are in place.
 
